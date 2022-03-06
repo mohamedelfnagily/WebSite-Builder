@@ -1,7 +1,90 @@
 .sectionOne{
     background-image: url(../../assets/images/HomePage/311dce_e76784d9977842c589074d75858f847a_mv2.webp);
-    height: 100vh;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+}
+.sectionOne h1 {
+    font-size: 56px;
+    line-height: 67px;
+    font-weight: 400;
+    color: #000000;
+}
+.sectionOne p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.sectionOne button{
+    background-color: #000000;
+    transition: 0.5s;
+}
+.sectionOne button:hover {
+    background-color:#116DFF ;
+    border-color: #116DFF;
+}
+@media screen and (max-width:750px) {
+    .sectionOne img{
+        
+        display: none;
+    }
+    .sectionOne h1{
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 0%;
+        padding-top: 0%;
+        
+    }
+    .sectionOne {
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    
+}
+
+// ##############################################################
+.sectionTwo{
+    background-color: #000000;
+    color: white;
+}
+.sectionTwo h2 {
+    font-size: 48px;
+    line-height: 67px;
+    
+}
+
+.sectionThree{
+    background-color: white;
+    color: black;
+}
+.sectionThree h2 {
+    font-size: 48px;
+    line-height: 67px;
+
+}
+.sectionThree p {
+    font-size: 20px;
+    line-height: 28px;
+
+}
+.sectionThree .col-md-4{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sectionThree .col-md-4:hover{
+    background-color: #000000;
+    color: white;
+}
+
+@media screen and (max-width:750px) {
+    .sectionThree h2{
+        font-size: 28px;
+        line-height: 35px;
+
+    }
+    .sectionTwo h2{
+        font-size: 28px;
+        line-height: 35px;
+
+    }
 }
